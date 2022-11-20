@@ -1,0 +1,23 @@
+{
+  "name": "drag-drop-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathitos/drag-drop-html.git"
+  },
+  "author": "Matheus Anzzulin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mathitos/drag-drop-html/issues"
+  },
+  "homepage": "https://github.com/Mathitos/drag-drop-html#readme",
+  "devDependencies": {
+    "serve": "^14.0.1"
+  }
+}
