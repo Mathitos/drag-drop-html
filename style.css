@@ -34,3 +34,7 @@ body {
   border-radius: 1rem;
   padding: 1rem;
 }
+
+.card.moving {
+  opacity: 0.4;
+}
