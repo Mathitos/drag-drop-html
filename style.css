@@ -11,6 +11,8 @@ body {
 .container {
   display: flex;
   flex-direction: row;
+  height: 100%;
+  width: 100%;
 }
 
 .list {
@@ -19,6 +21,7 @@ body {
   flex-direction: column;
   padding: 1rem;
   width: 17rem;
+  height: 100%;
 }
 
 .list + .list {

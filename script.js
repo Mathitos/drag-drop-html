@@ -12,3 +12,11 @@ cards.forEach((card) => {
     card.classList.remove('moving')
   })
 })
+
+lists.forEach((list) => {
+  list.addEventListener('dragover', (e) => {
+    e.preventDefault()
+    const movingCard = document.querySelector('.moving')
+    list.append(movingCard)
+  })
+})
