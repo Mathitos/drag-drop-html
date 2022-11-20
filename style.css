@@ -18,14 +18,19 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  width: 17rem;
 }
 
 .list + .list {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .card {
-  width: 10rem;
-  height: 3rem;
+  width: 15rem;
+  height: 5rem;
   background: whitesmoke;
+  border: 1px solid black;
+  cursor: move;
+  border-radius: 1rem;
+  padding: 1rem;
 }
